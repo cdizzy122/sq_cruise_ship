@@ -24,7 +24,7 @@ PS: If you treat me well I might be sending more pics ;)<</speech>>
 (I wasn't expecting such comprehension of her, especially considering how angry she was at me last night) Ok baby, I understand. Take care, I love you. <3<3<</speech>>
 Although you have lots of questions for her, you decide it's best to swallow your pride and do your best to forget about it.
 
-With an unsettling feeling in your guts, you decide to get in bed and try to <<click 'sleep' Goodmorning>><<set $receivemessages to true>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 0>><<adddays 1>><</click>><<set $gfsms to 0>><<set $announcement2 to true>><<audio "menus" stop>>
+With an unsettling feeling in your guts, you decide to get in bed and try to <<click "sleep" "Goodmorning">><<set $receivemessages to true>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 0>><<adddays 1>><</click>><<set $gfsms to 0>><<set $announcement2 to true>><<audio "menus" stop>>
 
 
 
@@ -40,6 +40,6 @@ You are being unfair and you know it! Those were old pictures and you weren't su
 Whatever, I just don't feel I can trust you, so I think being apart is a great idea. We'll talk about the house and everything else once I'm back.<</speech>>
 You see her writing back, but her message never arrives. It seems like she's given up.
 
-With an unsettling feeling in your guts, you decide to get in bed and try to <<click 'sleep' Goodmorning>><<set $receivemessages to true>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 0>><<adddays 1>><</click>><<set $gfsms to 0>><<set $announcement2 to true>><<audio "menus" stop>><</if>>
+With an unsettling feeling in your guts, you decide to get in bed and try to <<click "sleep" "Goodmorning">><<set $receivemessages to true>><<widget showday>>Day <<print $dayn>><</widget>><<set $dayn to 0>><<adddays 1>><</click>><<set $gfsms to 0>><<set $announcement2 to true>><<audio "menus" stop>><</if>>
 
 

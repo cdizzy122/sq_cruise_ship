@@ -1,9 +1,9 @@
-:: Goodmorning {"position":"1455,1440","size":"100,100"}
+:: Goodmorning
 <<removeclass "html">><div class="center"><img src="places2/goodmorning.jpg" width="80%">
 
 <<if $announcement2 is true>>''Good Morning!!''<<timed 1.5s>><<goto "announcement2">><</timed>><<set $needshower to true>><<set $fitnesstrack to 0>>
 <<elseif $announcement3 is true>>''Good Morning!!''<<timed 1.5s>><<goto "announcement3">><</timed>><<set $needshower to true>><<set $fitnesstrack to 0>>
-<<elseif $announcement4 is true>>''Good Morning!!''<<timed 1.5s>><<goto "announcement4">><</timed>><<set $needshower to true>><<set $fitnesstrack to 0>><<else>>''Good Morning!!''<<timed 1.5s>><<goto "Bedroom">><</timed>><<set $needshower to true>><</if>><<set $massage to true>><<if $dayn is 1>><<set $startclasses to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $fitnesstrack to 0>><<set $gym to 0>><<else>><</if>></div><<run $gameDate.setHours (8)>><<run $gameDate.setMinutes (0)>><<set $dayn to $dayn +1>><<set $alreadytrained to false>><<set $dinnertime to true>><<set $hunger to $hunger -40>><<set $alreadyran to false>><<set $alreadycame to false>><<set $alreadyate to false>><<set $library to 0>>
+<<else>>''Good Morning!!''<<timed 1.5s>><<goto "Bedroom">><</timed>><<set $needshower to true>><</if>><<set $massage to true>><<if $dayn is 1>><<set $startclasses to true>><<set $mistressroom to true>><<set $deck3trip to true>><<set $fitnesstrack to 0>><<set $gym to 0>><<else>><</if>></div><<run $gameDate.setHours (8)>><<run $gameDate.setMinutes (0)>><<set $dayn to $dayn +1>><<set $alreadytrained to false>><<set $dinnertime to true>><<set $hunger to $hunger -40>><<set $alreadyran to false>><<set $alreadycame to false>><<set $alreadyate to false>><<set $library to 0>>
 
 <<if $dayn is 3>><<set $goggles to 2>><<elseif $dayn is 6>><<set $goggles to 3>><<elseif $dayn is 9>><<set $goggles to 4>><<elseif $dayn is 12>><<set $goggles to 5>><</if>><<audio "dreams" stop>><<audio "gm" volume 0.6 play>>
 
