@@ -1,6 +1,6 @@
 :: Inventory [noreturn] {"position":"141,923","size":"100,100"}
 <<removeclass "html">><<addclass "html" "spades">><<if ndef $mutefx>><<audio "button" play>><<else>><</if>><div class="center"><span class="titlelog">INVENTORY</span><div class="linecenter"><div class="rowinv"><div class="columninvl"><span class="onomatopeya">KEY OBJECTS:</span>
-<div class="center"><<if $gfbag is true>> [[GF's Lunch]], <<else>><</if>>
+<div class="center"><<if $gfbag is true>> [[GF's lunch]], <<else>><</if>>
 \\
 <<if $proteinshakes is true>> [[Protein Shakes]], <<else>><</if>>
 \\

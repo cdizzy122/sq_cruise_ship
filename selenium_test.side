@@ -1,0 +1,2556 @@
+{
+  "id": "4456662d-2880-4030-9fb6-3a6558e954d0",
+  "version": "2.0",
+  "name": "tessst",
+  "url": "file:///path/to/directory/sq_cruise_ship/sq_cruise_ship.html",
+  "tests": [{
+    "id": "803b1164-3a8c-4dfe-8b54-c0981a718481",
+    "name": "redo",
+    "commands": [{
+      "id": "21a0b132-0780-4750-8458-b125490393ff",
+      "comment": "",
+      "command": "open",
+      "target": "file:///path/to/directory/sq_cruise_ship/sq_cruise_ship.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "318d5a93-b123-42d7-99c2-182c3b22263d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2a6f5de-bf31-4b1c-8e4d-2f74e09b67a0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Start New Game",
+      "targets": [
+        ["linkText=Start New Game", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start New Game')]", "xpath:link"],
+        ["xpath=//div[@id='passage-start']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start New Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf671f6-66c1-47f9-8605-09d3b4c19b99",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start New Game",
+      "targets": [
+        ["linkText=Start New Game", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start New Game')]", "xpath:link"],
+        ["xpath=//div[@id='passage-start']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start New Game')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "123e26b9-1e13-48fb-b137-9a328a48209a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go!",
+      "targets": [
+        ["linkText=Go!", "linkText"],
+        ["css=.link-internal:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Go!')]", "xpath:link"],
+        ["xpath=//div[@id='passage-storyinit']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0982b056-5ae0-40e0-ad6c-9f98c3c13774",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open your eyes",
+      "targets": [
+        ["linkText=Open your eyes", "linkText"],
+        ["css=.link-internal:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Open your eyes')]", "xpath:link"],
+        ["xpath=//div[@id='passage-introduction']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open your eyes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0972052a-036e-4658-95da-a8b1a5c03468",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stand up",
+      "targets": [
+        ["linkText=Stand up", "linkText"],
+        ["css=.link-internal:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Stand up')]", "xpath:link"],
+        ["xpath=//div[@id='passage-wake-up']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stand up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "722cb52b-0e5b-4bbd-b603-d80fcf7e6952",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get dressed",
+      "targets": [
+        ["linkText=Get dressed", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Get dressed')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stand-up']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get dressed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8abd14-5ffb-4ac6-a7e5-0a8c2613231b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.borderboxhome:nth-child(1)",
+      "targets": [
+        ["css=.borderboxhome:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='passage-get-dressed']/span/span", "xpath:idRelative"],
+        ["xpath=//div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa47526d-058a-4873-957b-681835fb2c1b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Put on suit",
+      "targets": [
+        ["linkText=Put on suit", "linkText"],
+        ["css=.link-internal:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Put on suit')]", "xpath:link"],
+        ["xpath=//div[@id='passage-get-dressed']/span/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Put on suit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de9373f8-f12f-4f2d-824f-87be83b9cae5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-get-dressed']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d60d5914-3524-48c7-bdcf-b7cc9ab18596",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New message",
+      "targets": [
+        ["linkText=New message", "linkText"],
+        ["css=.fade-ins-out > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'New message')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stand-up']/span[2]/span/a", "xpath:idRelative"],
+        ["xpath=//span[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "717e82e5-7f45-4adb-8078-e7dc65bdefb8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I'll get it for you",
+      "targets": [
+        ["linkText=I'll get it for you", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//div[@id='passage-phone']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83be0f8b-caee-4a68-adf1-6f944965f0ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-phone']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a85d4aba-201e-4888-a7e4-7ccf8fcfeda8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hall",
+      "targets": [
+        ["linkText=Hall", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Hall')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stand-up']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4329c98-6f5c-4472-9dfc-38a144cdb839",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kitchen",
+      "targets": [
+        ["linkText=Kitchen", "linkText"],
+        ["css=.link-internal:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Kitchen')]", "xpath:link"],
+        ["xpath=//div[@id='passage-hall']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Kitchen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f5c1fb3-32ca-434a-9724-bbed2cfc07b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GF's lunch",
+      "targets": [
+        ["linkText=GF's lunch", "linkText"],
+        ["css=.link-broken", "css:finder"],
+        ["xpath=//div[@id='passage-kitchen']/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//div[2]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d092fd2-25ed-49dd-a96a-d3bb046059b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Make an easy sause for that (15 min)",
+      "targets": [
+        ["linkText=Make an easy sause for that (15 min)", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Make an easy sause for that (15 min)')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-lunch']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Make an easy sause for that (15 min)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca0f4df0-0815-4a84-9a1f-0fc920a2cd86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(12)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-lunch']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "313bb5e5-d212-4015-8a47-c74240962fb8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hall",
+      "targets": [
+        ["linkText=Hall", "linkText"],
+        ["css=.link-internal:nth-child(12)", "css:finder"],
+        ["xpath=//a[contains(text(),'Hall')]", "xpath:link"],
+        ["xpath=//div[@id='passage-kitchen']/div[2]/a[5]", "xpath:idRelative"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Hall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5fb9a46-ca70-4908-8213-11a2d8d79792",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Foyer",
+      "targets": [
+        ["linkText=Foyer", "linkText"],
+        ["css=.link-internal:nth-child(15)", "css:finder"],
+        ["xpath=//a[contains(text(),'Foyer')]", "xpath:link"],
+        ["xpath=//div[@id='passage-hall']/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Foyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "280ce575-82c7-4dfd-89bf-e73f3a00d2d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=*hang up*",
+      "targets": [
+        ["linkText=*hang up*", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'*hang up*')]", "xpath:link"],
+        ["xpath=//div[@id='passage-foyer-event']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'*hang up*')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da4018a5-6de5-4eb6-ba33-6bf9736bfb25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go out",
+      "targets": [
+        ["linkText=Go out", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Go out')]", "xpath:link"],
+        ["xpath=//div[@id='passage-foyer']/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Go out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57ca4093-d2f0-4ab7-971e-85ed4956476d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Look around",
+      "targets": [
+        ["linkText=Look around", "linkText"],
+        ["css=.center > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Look around')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-out']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Look around')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7ddea3e-3a2e-46ef-a958-a50db71c2d4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=come in.",
+      "targets": [
+        ["linkText=come in.", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'come in.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'come in.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb39e57b-9bd3-4e92-8bbc-4dfbbec6b952",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(15)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4bd1ecc-3ae1-4703-a586-8eab31939d22",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Look around",
+      "targets": [
+        ["linkText=Look around", "linkText"],
+        ["css=.center > .link-internal:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Look around')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-out']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Look around')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "698b42c4-fe6c-4883-a2de-c5881cd545bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=come in.",
+      "targets": [
+        ["linkText=come in.", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'come in.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'come in.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ea6002c-ac58-4c49-8ac7-ee3fb9640bc3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=*you smile nervously as you look down*",
+      "targets": [
+        ["linkText=*you smile nervously as you look down*", "linkText"],
+        ["css=.link-internal:nth-child(14)", "css:finder"],
+        ["xpath=//a[contains(text(),'*you smile nervously as you look down*')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood']/span[3]/span/a", "xpath:idRelative"],
+        ["xpath=//span[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'*you smile nervously as you look down*')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08d05255-b4e1-461a-8806-7e797e5b1190",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(15)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab8df9d-8123-4177-961f-37d5494fa707",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to city",
+      "targets": [
+        ["linkText=Go to city", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to city')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-out']/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to city')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62f13e11-ec47-48c2-af10-46f819751536",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GF's work",
+      "targets": [
+        ["linkText=GF's work", "linkText"],
+        ["css=.column3:nth-child(2) > .link-internal", "css:finder"],
+        ["xpath=//div[@id='passage-go-to-city']/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb1f2b86-8ad7-469f-98c5-3adf012c2676",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get inside",
+      "targets": [
+        ["linkText=Get inside", "linkText"],
+        ["css=.link-internal:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get inside')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get inside')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a3f39fc-7ac5-4955-ba84-688cd83f886e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Into the elevator",
+      "targets": [
+        ["linkText=Into the elevator", "linkText"],
+        ["css=.link-internal:nth-child(49)", "css:finder"],
+        ["xpath=//a[contains(text(),'Into the elevator')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Into the elevator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ed84b1-ae4b-44dc-a948-9d1ae20b8ab0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Step out",
+      "targets": [
+        ["linkText=Step out", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Step out')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Step out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeaad261-5ff3-4c3d-bc4a-f8c4984a8bdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Check post-it notes",
+      "targets": [
+        ["linkText=Check post-it notes", "linkText"],
+        ["css=.link-internal:nth-child(29)", "css:finder"],
+        ["xpath=//a[contains(text(),'Check post-it notes')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/span/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Check post-it notes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0f06b9d-c88c-4b71-b34b-bf47bf90d485",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Reach for it",
+      "targets": [
+        ["linkText=Reach for it", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Reach for it')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Reach for it')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "856c52c5-e99b-4dbf-a446-08c216e4282c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8a8f6e-994c-476f-8adf-e5fd9e651af4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ground floor",
+      "targets": [
+        ["linkText=Ground floor", "linkText"],
+        ["css=.link-internal:nth-child(68)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ground floor')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ground floor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "305681b2-cf0e-436d-89a6-5b6dedc30602",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get out",
+      "targets": [
+        ["linkText=Get out", "linkText"],
+        ["css=.link-internal:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get out')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-work']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb95653a-4b59-43bc-8596-f912749befb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Park",
+      "targets": [
+        ["linkText=Park", "linkText"],
+        ["css=.column3:nth-child(1) > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Park')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-to-city']/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Park')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64a4ab9f-b455-44c2-8cf7-e22a1aabf0e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=go",
+      "targets": [
+        ["linkText=go", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'go')]", "xpath:link"],
+        ["xpath=//div[@id='passage-park']/div[17]/a", "xpath:idRelative"],
+        ["xpath=//div[17]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'go')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54ef8fa0-c547-4829-a1cd-3f88ae34d7af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to another agency",
+      "targets": [
+        ["linkText=Go to another agency", "linkText"],
+        ["css=.link-internal:nth-child(20)", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to another agency')]", "xpath:link"],
+        ["xpath=//div[@id='passage-travel-agency']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to another agency')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43190d41-3265-4ec5-85d0-285dd82f7d84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=go in.",
+      "targets": [
+        ["linkText=go in.", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'go in.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-to-another-agency']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'go in.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "568ce465-da9f-4348-8efd-53cce476273e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=... ...",
+      "targets": [
+        ["linkText=... ...", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'... ...')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-to-another-agency']/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'... ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b4c1436-6908-4900-899c-9d4667f8c684",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to next room",
+      "targets": [
+        ["linkText=Go to next room", "linkText"],
+        ["css=.link-internal:nth-child(31)", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to next room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-to-another-agency']/span[2]/span/a", "xpath:idRelative"],
+        ["xpath=//span[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to next room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeeb29a3-7018-4caf-ba8f-47fbf74db143",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get out",
+      "targets": [
+        ["linkText=Get out", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Get out')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-to-next-room']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30b9327e-4e6c-42ff-806d-d63d14b036fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=home)",
+      "targets": [
+        ["linkText=home)", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'home)')]", "xpath:link"],
+        ["xpath=//div[@id='passage-get-out']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'home)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f80fb02-6d8c-420b-a261-bd382a1d3a7d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=take a look?",
+      "targets": [
+        ["linkText=take a look?", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'take a look?')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood-lana-pool']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'take a look?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c4e45bd-aca3-41f8-b785-35967229302d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continue looking",
+      "targets": [
+        ["linkText=Continue looking", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue looking')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood-lana-pool']/span[3]/a", "xpath:idRelative"],
+        ["xpath=//span[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue looking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "541ed5b7-a4df-4149-886f-1732b93661bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NAKED???",
+      "targets": [
+        ["linkText=NAKED???", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'NAKED???')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood-lana-pool']/span[3]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NAKED???')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64de0db4-8eeb-43f0-a3de-c18e2cc02d56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='passage-neighbourhood-lana-pool']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be7c5912-22cb-4db1-a2ae-5d8fe0ea413c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hall",
+      "targets": [
+        ["linkText=Hall", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Hall')]", "xpath:link"],
+        ["xpath=//div[@id='passage-foyer']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a881d6f-394a-4ef4-9040-27cf619e2fc3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your room",
+      "targets": [
+        ["linkText=Your room", "linkText"],
+        ["css=.macro-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Your room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-hall']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Your room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acd04227-2c47-4c18-a16c-785c7df21134",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sleep",
+      "targets": [
+        ["linkText=Sleep", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Sleep')]", "xpath:link"],
+        ["xpath=//div[@id='passage-myroom']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sleep')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "846d2248-2069-4b1b-8f41-2e1c9c716f71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-myroom']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a838f131-6f2c-4588-a87f-6309335bfb36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GF's room",
+      "targets": [
+        ["linkText=GF's room", "linkText"],
+        ["css=.link-internal:nth-child(12)", "css:finder"],
+        ["xpath=//div[@id='passage-hall']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6857b933-b8ad-479f-b541-9ea77e7a7ffd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open Door",
+      "targets": [
+        ["linkText=Open Door", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Open Door')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gfs-room']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open Door')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d3f8da-dd23-4baa-a2ce-8abec22ed7a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptop",
+      "targets": [
+        ["linkText=Laptop", "linkText"],
+        ["css=.Phone > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Laptop')]", "xpath:link"],
+        ["xpath=//div[@id='passage-open-gfdoor']/div/div/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//div[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7bbd8b5-c12c-4231-a2e6-da4dd4808881",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong:nth-child(4)",
+      "targets": [
+        ["css=strong:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='passage-laptop']/div[2]/strong[2]", "xpath:idRelative"],
+        ["xpath=//strong[2]", "xpath:position"],
+        ["xpath=//strong[contains(.,'\"moreinchnoflinch\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c40a32da-ea0d-4332-82ce-1c13ca1622b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong:nth-child(4)",
+      "targets": [
+        ["css=strong:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='passage-laptop']/div[2]/strong[2]", "xpath:idRelative"],
+        ["xpath=//strong[2]", "xpath:position"],
+        ["xpath=//strong[contains(.,'\"moreinchnoflinch\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6496d1a4-9559-40ac-94e2-3cdd6476ece7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=strong:nth-child(4)",
+      "targets": [
+        ["css=strong:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='passage-laptop']/div[2]/strong[2]", "xpath:idRelative"],
+        ["xpath=//strong[2]", "xpath:position"],
+        ["xpath=//strong[contains(.,'\"moreinchnoflinch\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "357b7d7f-a1f0-4f03-8327-2db6bce79c09",
+      "comment": "",
+      "command": "click",
+      "target": "id=textbox-laptop",
+      "targets": [
+        ["id=textbox-laptop", "id"],
+        ["name=textbox-laptop", "name"],
+        ["css=#textbox-laptop", "css:finder"],
+        ["xpath=//input[@id='textbox-laptop']", "xpath:attributes"],
+        ["xpath=//div[@id='passage-laptop']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad38042-fa7b-4085-a5d5-0f0cafb16d83",
+      "comment": "",
+      "command": "type",
+      "target": "id=textbox-laptop",
+      "targets": [
+        ["id=textbox-laptop", "id"],
+        ["name=textbox-laptop", "name"],
+        ["css=#textbox-laptop", "css:finder"],
+        ["xpath=//input[@id='textbox-laptop']", "xpath:attributes"],
+        ["xpath=//div[@id='passage-laptop']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "moreinchnoflinch"
+    }, {
+      "id": "ffd32140-7c56-4cab-ab2a-d7582cd96ad5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Enter",
+      "targets": [
+        ["linkText=Enter", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Enter')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptop']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Enter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc893bc9-7fdf-4dc2-abfd-01c1213355f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browser",
+      "targets": [
+        ["linkText=Browser", "linkText"],
+        ["css=.center > .link-internal:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Browser')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptop']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Browser')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4b5a763-ac4a-404d-be00-4dcb212380b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Check downloads",
+      "targets": [
+        ["linkText=Check downloads", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Check downloads')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Check downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c44f67bb-87e5-4db0-b607-04eab15b00f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Check search history",
+      "targets": [
+        ["linkText=Check search history", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Check search history')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/span/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Check search history')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0828847-2062-4d34-8716-2164d28651b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CLICK",
+      "targets": [
+        ["linkText=CLICK", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'CLICK')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/span/span[2]/span/a", "xpath:idRelative"],
+        ["xpath=//span[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CLICK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6918115e-bb18-468d-9a7e-8fe6a32c5cc5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return to Desktop",
+      "targets": [
+        ["linkText=Return to Desktop", "linkText"],
+        ["css=.link-internal:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return to Desktop')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/span/span[2]/span/span/span/a", "xpath:idRelative"],
+        ["xpath=//span/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return to Desktop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a63cb311-0210-4dcf-ac4d-d17a5be24c23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gallery",
+      "targets": [
+        ["linkText=Gallery", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gallery')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptop']/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Gallery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4631b339-4e26-4e80-bfbe-e35197df553f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Locked folder",
+      "targets": [
+        ["linkText=Locked folder", "linkText"],
+        ["css=.Phone > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Locked folder')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//div[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Locked folder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dd9f73b-8e4e-4232-9be2-e692efc0dab1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(25)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f6f3e3e-cd49-4b43-8056-4a53dbb08cd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Date folders",
+      "targets": [
+        ["linkText=Date folders", "linkText"],
+        ["css=.center > .link-internal:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Date folders')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Date folders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6845aac6-46ef-447e-b4ce-168675fa1ead",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(19)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3251ca82-1a49-4c86-be49-dfd0cf2a0061",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Travelling folders",
+      "targets": [
+        ["linkText=Travelling folders", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Travelling folders')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Travelling folders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb216bf0-69f6-4fab-8131-92e04d35d40f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open it",
+      "targets": [
+        ["linkText=Open it", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Open it')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open it')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e501a6c9-3020-4232-903c-d2038940907d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Play video",
+      "targets": [
+        ["linkText=Play video", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Play video')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/span/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Play video')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "328f5f63-bb93-4c48-836d-1bbdb1a9ea3a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(29)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/span/span/span/span/a", "xpath:idRelative"],
+        ["xpath=//span/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c55c387d-ede1-4f78-b2f8-58e137c49f6e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptopin']/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3b131b5-293c-407e-98e5-1efe8655e013",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Close",
+      "targets": [
+        ["linkText=Close", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Close')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptop']/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb56e965-8197-490e-9a86-8d317443f481",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-laptop']/a", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31293072-4e8d-4ab2-8b17-b72a6e3b7a71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hall",
+      "targets": [
+        ["linkText=Hall", "linkText"],
+        ["css=.link-internal:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Hall')]", "xpath:link"],
+        ["xpath=//div[@id='passage-open-gfdoor']/div/a", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13d392fc-2a74-41b6-8713-6e15fcfe98f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Your room",
+      "targets": [
+        ["linkText=Your room", "linkText"],
+        ["css=.macro-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Your room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-hall']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Your room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06f29211-70e3-488f-a4d0-a741c3c8012d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sleep",
+      "targets": [
+        ["linkText=Sleep", "linkText"],
+        ["css=.fade-ins-out > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Sleep')]", "xpath:link"],
+        ["xpath=//div[@id='passage-myroom']/div[2]/span/span/a", "xpath:idRelative"],
+        ["xpath=//div[2]/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sleep')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc957edb-d222-4dd3-a768-9afcef5bea94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=... ...",
+      "targets": [
+        ["linkText=... ...", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'... ...')]", "xpath:link"],
+        ["xpath=//div[@id='passage-sleephouse']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'... ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6a649a-e814-477a-acdf-d8575f08d1a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stay in bed",
+      "targets": [
+        ["linkText=Stay in bed", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Stay in bed')]", "xpath:link"],
+        ["xpath=//div[@id='passage-sleephouse']/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stay in bed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b41fd64-aaaf-4e3e-9a4a-d26198540512",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Living room",
+      "targets": [
+        ["linkText=Living room", "linkText"],
+        ["css=.link-internal:nth-child(13)", "css:finder"],
+        ["xpath=//a[contains(text(),'Living room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stay-in-bed']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Living room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4459c00-b165-4c66-a246-9f930c3af133",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=... ...",
+      "targets": [
+        ["linkText=... ...", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'... ...')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stay-in-bed']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'... ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c86443cb-ec42-4919-8979-5b05c7c747bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aaahh!",
+      "targets": [
+        ["linkText=Aaahh!", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Aaahh!')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stay-in-bed']/span/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aaahh!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cb028a9-7fa5-4dc2-a67b-6d2cbf82b405",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bring the Cruise up",
+      "targets": [
+        ["linkText=Bring the Cruise up", "linkText"],
+        ["css=.link-internal:nth-child(19)", "css:finder"],
+        ["xpath=//a[contains(text(),'Bring the Cruise up')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stay-in-bed']/span/span/span/a", "xpath:idRelative"],
+        ["xpath=//span/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bring the Cruise up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce2956cb-8e57-4231-8e6e-1b32ef30bcb2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to your room",
+      "targets": [
+        ["linkText=Go to your room", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to your room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stay-in-bed']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to your room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ebcd0b-b1a5-4da6-9e8e-29bc86bf3954",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DING",
+      "targets": [
+        ["linkText=DING", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'DING')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stay-in-bed']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DING')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89ec628a-bdbc-462c-8534-190f11c80684",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open it",
+      "targets": [
+        ["linkText=Open it", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Open it')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stay-in-bed']/span/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open it')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f8cc560-20f7-4b47-ad3d-b3eb9e728550",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carlos 👊🏽",
+      "targets": [
+        ["linkText=Carlos 👊🏽", "linkText"],
+        ["css=.center > .link-internal:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Carlos 👊🏽')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Carlos 👊🏽')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd943ff0-417e-4335-ad0a-670f767f9320",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "326665dc-31b2-4df1-b185-267a52d2f260",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return to folder",
+      "targets": [
+        ["linkText=Return to folder", "linkText"],
+        ["css=.link-internal:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return to folder')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return to folder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a84efc-a2ce-4212-a454-fec3e03b04a9",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=David 📏❤️",
+      "targets": [
+        ["linkText=David 📏❤️", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'David 📏❤️')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'David 📏❤️')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3d9569-6a04-4980-aaaa-e702e56f3505",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=passage-ex",
+      "targets": [
+        ["id=passage-ex", "id"],
+        ["css=#passage-ex", "css:finder"],
+        ["xpath=//div[@id='passage-ex']", "xpath:attributes"],
+        ["xpath=//div[@id='passages']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57dd58f9-ea7e-4b23-a68e-791fc0b82f41",
+      "comment": "",
+      "command": "click",
+      "target": "id=passage-ex",
+      "targets": [
+        ["id=passage-ex", "id"],
+        ["css=#passage-ex", "css:finder"],
+        ["xpath=//div[@id='passage-ex']", "xpath:attributes"],
+        ["xpath=//div[@id='passages']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58040e0f-0836-4f17-af59-44199917de07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=David 📏❤️",
+      "targets": [
+        ["linkText=David 📏❤️", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'David 📏❤️')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'David 📏❤️')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b05ab751-08d1-49d4-8d86-a81707aa55aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return to folder",
+      "targets": [
+        ["linkText=Return to folder", "linkText"],
+        ["css=.link-internal:nth-child(16)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return to folder')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return to folder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83da141f-27bc-4aad-9869-988d884f3b46",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Jeròme 🗼💏",
+      "targets": [
+        ["linkText=Jeròme 🗼💏", "linkText"],
+        ["css=.link-internal:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Jeròme 🗼💏')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Jeròme 🗼💏')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22874d72-ad6f-4770-86ff-07ceafa46866",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=passage-ex",
+      "targets": [
+        ["id=passage-ex", "id"],
+        ["css=#passage-ex", "css:finder"],
+        ["xpath=//div[@id='passage-ex']", "xpath:attributes"],
+        ["xpath=//div[@id='passages']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c69ae001-4dc6-4724-a55f-4db128f49a61",
+      "comment": "",
+      "command": "click",
+      "target": "id=passage-ex",
+      "targets": [
+        ["id=passage-ex", "id"],
+        ["css=#passage-ex", "css:finder"],
+        ["xpath=//div[@id='passage-ex']", "xpath:attributes"],
+        ["xpath=//div[@id='passages']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dba92a5a-8c92-416f-88e9-2ed6a5b83c89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jeròme 🗼💏",
+      "targets": [
+        ["linkText=Jeròme 🗼💏", "linkText"],
+        ["css=.link-internal:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Jeròme 🗼💏')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Jeròme 🗼💏')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c70d681-ca80-41ea-b951-bad7e02f794c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=... ...",
+      "targets": [
+        ["linkText=... ...", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'... ...')]", "xpath:link"],
+        ["xpath=//div[@id='passage-ex']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'... ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9966acee-5157-42ee-a30b-cdf0b5fd6ea8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I've seen enough! (Close folder)",
+      "targets": [
+        ["linkText=I've seen enough! (Close folder)", "linkText"],
+        ["css=.fade-ins-out > .link-internal", "css:finder"],
+        ["xpath=//div[@id='passage-ex']/span[2]/span/span/a", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d81348b3-50cc-4d46-910c-c5c48176164f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bring it up carefully",
+      "targets": [
+        ["linkText=Bring it up carefully", "linkText"],
+        ["css=.link-internal:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Bring it up carefully')]", "xpath:link"],
+        ["xpath=//div[@id='passage-argue']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bring it up carefully')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f82bb99-794a-4d7b-a960-8a1aef3ab9ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Are you happy?",
+      "targets": [
+        ["linkText=Are you happy?", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Are you happy?')]", "xpath:link"],
+        ["xpath=//div[@id='passage-argue']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Are you happy?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a452e6e-3c65-4c14-a5bb-100f140987e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to your room",
+      "targets": [
+        ["linkText=Go to your room", "linkText"],
+        ["css=.link-internal:nth-child(52)", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to your room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-argue']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to your room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa8304d7-f15c-4a70-8fdf-84cd0acfe2a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=bzzzzzzzzt",
+      "targets": [
+        ["linkText=bzzzzzzzzt", "linkText"],
+        ["css=.link-internal:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'bzzzzzzzzt')]", "xpath:link"],
+        ["xpath=//div[@id='passage-argue']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'bzzzzzzzzt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07230d98-4d2b-4a24-a1b7-4bbc3c3c9db2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sleep",
+      "targets": [
+        ["linkText=Sleep", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Sleep')]", "xpath:link"],
+        ["xpath=//div[@id='passage-callfriend2']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sleep')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b1414f1-c6e6-48c6-902f-8ab3c099469b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wake up",
+      "targets": [
+        ["linkText=Wake up", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Wake up')]", "xpath:link"],
+        ["xpath=//div[@id='passage-trysleep']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wake up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e64674-3aa8-432c-8ea5-0efa178da635",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-dialog-close",
+      "targets": [
+        ["id=ui-dialog-close", "id"],
+        ["css=#ui-dialog-close", "css:finder"],
+        ["xpath=//button[@id='ui-dialog-close']", "xpath:attributes"],
+        ["xpath=//div[@id='ui-dialog-titlebar']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c829fd4-f602-4cec-9d69-8a94c2267470",
+      "comment": "",
+      "command": "click",
+      "target": "id=passage-stand-up",
+      "targets": [
+        ["id=passage-stand-up", "id"],
+        ["css=#passage-stand-up", "css:finder"],
+        ["xpath=//div[@id='passage-stand-up']", "xpath:attributes"],
+        ["xpath=//div[@id='passages']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c477709-63b1-4275-8e7d-ec49ad634773",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get dressed",
+      "targets": [
+        ["linkText=Get dressed", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Get dressed')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stand-up']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get dressed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f97cc0b-f960-4f64-b3ba-8213b9804ab8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Put on casual clothes",
+      "targets": [
+        ["linkText=Put on casual clothes", "linkText"],
+        ["css=.link-internal:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Put on casual clothes')]", "xpath:link"],
+        ["xpath=//div[@id='passage-get-dressed']/span/span/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Put on casual clothes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f301ccd6-59e0-4c39-b927-11b565283c6d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-get-dressed']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bdb3de5-fa40-45c3-9018-70ba2c2000a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hall",
+      "targets": [
+        ["linkText=Hall", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Hall')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stand-up']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Hall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d022d9-9fa8-4c7c-bcbb-999382434928",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Foyer",
+      "targets": [
+        ["linkText=Foyer", "linkText"],
+        ["css=.link-internal:nth-child(15)", "css:finder"],
+        ["xpath=//a[contains(text(),'Foyer')]", "xpath:link"],
+        ["xpath=//div[@id='passage-hall']/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Foyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21f0727f-f759-4d3f-bea9-fdacf2028b8f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go out",
+      "targets": [
+        ["linkText=Go out", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Go out')]", "xpath:link"],
+        ["xpath=//div[@id='passage-foyer']/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Go out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9758057f-ef5c-445d-a843-48030189666e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to London Port",
+      "targets": [
+        ["linkText=Go to London Port", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to London Port')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-out']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to London Port')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c97e5b38-d9ad-4b4d-af82-ca8cc2e7b3bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=look.",
+      "targets": [
+        ["linkText=look.", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'look.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-london']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'look.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b0b208-9d80-4638-ae96-79ed235cb956",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go in",
+      "targets": [
+        ["linkText=Go in", "linkText"],
+        ["css=.link-internal:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Go in')]", "xpath:link"],
+        ["xpath=//div[@id='passage-london']/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f211a30-a473-4649-aca5-d64dc8945f51",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=departures and arrivals.",
+      "targets": [
+        ["linkText=departures and arrivals.", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'departures and arrivals.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-in']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'departures and arrivals.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d3ab38a-d61d-4083-8f39-804937f71403",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=first cruise ship of your life:",
+      "targets": [
+        ["linkText=first cruise ship of your life:", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'first cruise ship of your life:')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-in']/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'first cruise ship of your life:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f2db920-bdd1-41a9-8611-4ec524d5b9fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=*open the door*",
+      "targets": [
+        ["linkText=*open the door*", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'*open the door*')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-in']/span[2]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'*open the door*')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "507b8a0c-fe4d-4be6-b532-3f06237076cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get out",
+      "targets": [
+        ["linkText=Get out", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Get out')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-in']/span[2]/span[2]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aaf2572-04c5-4221-a10b-286ee77d639d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gate 3",
+      "targets": [
+        ["linkText=Gate 3", "linkText"],
+        ["css=.link-internal:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gate 3')]", "xpath:link"],
+        ["xpath=//div[@id='passage-go-in']/span[2]/span[2]/span[2]/span/a", "xpath:idRelative"],
+        ["xpath=//span[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gate 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6aecb3d-9ff4-4640-afa4-0227c4e2f628",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=You look at your clock...",
+      "targets": [
+        ["linkText=You look at your clock...", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'You look at your clock...')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gate-3']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'You look at your clock...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "346a1840-f595-430e-826b-df4ed7202c48",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=actual ship.",
+      "targets": [
+        ["linkText=actual ship.", "linkText"],
+        ["css=.link-internal:nth-child(29)", "css:finder"],
+        ["xpath=//a[contains(text(),'actual ship.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gate-3']/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'actual ship.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "085b55a3-6c5c-4913-b64e-75612f9e9bde",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Reception",
+      "targets": [
+        ["linkText=Reception", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Reception')]", "xpath:link"],
+        ["xpath=//div[@id='passage-gate-3']/span[2]/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Reception')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f8378b1-482c-456f-833b-ef663a812cf4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to your room",
+      "targets": [
+        ["linkText=Go to your room", "linkText"],
+        ["css=.link-internal:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to your room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-reception']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to your room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b27b7c69-4fdb-4dd4-99dd-6b12027a327f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bathroom",
+      "targets": [
+        ["linkText=Bathroom", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Bathroom')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bedroom']/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Bathroom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "815ca423-229a-4324-a8d8-2d4840c08342",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PEE NOW NOW NOW",
+      "targets": [
+        ["linkText=PEE NOW NOW NOW", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'PEE NOW NOW NOW')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bathship']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PEE NOW NOW NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e10f6656-2ccf-49c9-bb68-baf6a3788741",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-pee-now-now-now']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ccce1ee-db30-4bd2-8420-02619f446dbc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shower",
+      "targets": [
+        ["linkText=Shower", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shower')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bathship']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shower')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e583c6a6-07c0-4322-b72a-9a67b885c6f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-showership']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71d8f4b-3967-4955-b10f-e7c89d02e3ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bathship']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a639fd8-6479-4e0b-beb3-4785cfa7b206",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Relax on bed",
+      "targets": [
+        ["linkText=Relax on bed", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Relax on bed')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bedroom']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Relax on bed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "915ea4df-cddf-44e7-91aa-5fdda1508cae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=asleep.",
+      "targets": [
+        ["linkText=asleep.", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'asleep.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-announcement1']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'asleep.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cee55d0-193f-4c6a-b7db-19cd49942522",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wardrobe",
+      "targets": [
+        ["linkText=Wardrobe", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Wardrobe')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bedroom']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wardrobe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e195cb22-a630-4ae8-bf22-1f7146bf691d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.normal > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-wardrobe']/span/span[4]/a", "xpath:idRelative"],
+        ["xpath=//span[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4ac7e3a-1048-445a-bfc9-bf85ffc72e18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wardrobe",
+      "targets": [
+        ["linkText=Wardrobe", "linkText"],
+        ["css=.link-internal:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Wardrobe')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bedroom']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wardrobe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb9c9d0-b2e8-4bd0-ba2b-dfa192742666",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Put on suit",
+      "targets": [
+        ["linkText=Put on suit", "linkText"],
+        ["css=.link-internal:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Put on suit')]", "xpath:link"],
+        ["xpath=//div[@id='passage-wardrobe']/span/span[2]/a", "xpath:idRelative"],
+        ["xpath=//div/span/span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Put on suit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "baa6ea69-aa5f-4496-bd35-c4038ec47239",
+      "comment": "",
+      "command": "click",
+      "target": "id=passage-wardrobe",
+      "targets": [
+        ["id=passage-wardrobe", "id"],
+        ["css=#passage-wardrobe", "css:finder"],
+        ["xpath=//div[@id='passage-wardrobe']", "xpath:attributes"],
+        ["xpath=//div[@id='passages']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0be3924-f9b4-4342-8a65-5b7727aed216",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.normal > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-wardrobe']/span/span[4]/a", "xpath:idRelative"],
+        ["xpath=//span[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f4ab32f-a463-42c0-8e3b-5832f52bf23f",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='passage-bedroom']/div[2]/a[3]/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Go out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6786047e-0a55-43ea-875a-f45559f19ac2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Elevator↕️",
+      "targets": [
+        ["linkText=Elevator↕️", "linkText"],
+        ["css=.link-internal:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Elevator↕️')]", "xpath:link"],
+        ["xpath=//div[@id='passage-deck-2']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Elevator↕️')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f59c0c-096f-475c-ac66-acc4b9de7c89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-elevator']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4446afe3-754c-4b7d-8813-04b265b567ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stairs up☝🏻",
+      "targets": [
+        ["linkText=Stairs up☝🏻", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Stairs up☝🏻')]", "xpath:link"],
+        ["xpath=//div[@id='passage-deck-2']/div/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stairs up☝🏻')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76886aa3-735c-4c09-9dd1-0cb11fde5e98",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stairs up☝🏻",
+      "targets": [
+        ["linkText=Stairs up☝🏻", "linkText"],
+        ["css=.macro-click:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Stairs up☝🏻')]", "xpath:link"],
+        ["xpath=//div[@id='passage-deck-3']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stairs up☝🏻')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aaadf98-3549-4e87-920f-d8832987f856",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stage",
+      "targets": [
+        ["linkText=Stage", "linkText"],
+        ["css=.column3:nth-child(1) > strong > .link-internal", "css:finder"],
+        ["xpath=//a[contains(text(),'Stage')]", "xpath:link"],
+        ["xpath=//div[@id='passage-deck-4']/div[2]/div/div/strong/a", "xpath:idRelative"],
+        ["xpath=//strong/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6af2afa-ec96-4bcf-8b60-dcbfd305d3ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=passage-stage",
+      "targets": [
+        ["id=passage-stage", "id"],
+        ["css=#passage-stage", "css:finder"],
+        ["xpath=//div[@id='passage-stage']", "xpath:attributes"],
+        ["xpath=//div[@id='passages']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf0de1eb-8c04-4eed-84e4-3ee827285963",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=door to the stage.",
+      "targets": [
+        ["linkText=door to the stage.", "linkText"],
+        ["css=.macro-linkappend", "css:finder"],
+        ["xpath=//a[contains(text(),'door to the stage.')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stage']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'door to the stage.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b41cb9e-c165-4ceb-93f5-df42c8fc964d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=*Music starts*",
+      "targets": [
+        ["linkText=*Music starts*", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'*Music starts*')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stage']/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'*Music starts*')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7abbb7a-82b1-43ac-a48b-56815fdcd6ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BEGIN!",
+      "targets": [
+        ["linkText=BEGIN!", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'BEGIN!')]", "xpath:link"],
+        ["xpath=//div[@id='passage-stage']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BEGIN!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3889985-f968-4020-943d-1858a06b8994",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Have a drink",
+      "targets": [
+        ["linkText=Have a drink", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Have a drink')]", "xpath:link"],
+        ["xpath=//div[@id='passage-lounge']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Have a drink')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e1ef7ff-42f8-465f-9e7b-fe611ba8651f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sticky Blobby",
+      "targets": [
+        ["linkText=Sticky Blobby", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'Sticky Blobby')]", "xpath:link"],
+        ["xpath=//div[@id='passage-have-a-drink']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sticky Blobby')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7f9f681-29ab-48d6-88e3-42dcd9b754db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blowjob",
+      "targets": [
+        ["linkText=Blowjob", "linkText"],
+        ["css=.link-internal:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Blowjob')]", "xpath:link"],
+        ["xpath=//div[@id='passage-have-a-drink']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Blowjob')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "819b7efa-068d-4961-bb16-90cf717098c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Drink blowjob",
+      "targets": [
+        ["linkText=Drink blowjob", "linkText"],
+        ["css=.link-internal:nth-child(12)", "css:finder"],
+        ["xpath=//a[contains(text(),'Drink blowjob')]", "xpath:link"],
+        ["xpath=//div[@id='passage-blowjob']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Drink blowjob')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e46fabac-8adf-4083-a196-df77d53892e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Have something else",
+      "targets": [
+        ["linkText=Have something else", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Have something else')]", "xpath:link"],
+        ["xpath=//div[@id='passage-drink-blowjob']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Have something else')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af63b205-ab46-4c99-b40b-e8af193d07a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Margarita",
+      "targets": [
+        ["linkText=Margarita", "linkText"],
+        ["css=.link-internal:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Margarita')]", "xpath:link"],
+        ["xpath=//div[@id='passage-have-a-drink']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Margarita')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dee51fef-a200-4ff1-875b-e0595d918c41",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Yeah, I'm alright *cough, cough*",
+      "targets": [
+        ["linkText=Yeah, I'm alright *cough, cough*", "linkText"],
+        ["css=.link-internal:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='passage-margarita']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34367606-013e-4318-84c3-fb1691df9020",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-yeah-im-alright-cough-cough']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaa83120-66af-4aa2-ba21-6166131efcb4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.link-internal:nth-child(18)", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-have-a-drink']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30185c58-c0ae-4768-9fa1-ce6d10a59109",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try to talk to someone",
+      "targets": [
+        ["linkText=Try to talk to someone", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Try to talk to someone')]", "xpath:link"],
+        ["xpath=//div[@id='passage-lounge']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Try to talk to someone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "835f79c5-49d7-4eb9-ada8-7c20f96ecf09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Invite them to a drink",
+      "targets": [
+        ["linkText=Invite them to a drink", "linkText"],
+        ["css=.link-internal:nth-child(18)", "css:finder"],
+        ["xpath=//a[contains(text(),'Invite them to a drink')]", "xpath:link"],
+        ["xpath=//div[@id='passage-try-to-talk-to-someone']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Invite them to a drink')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "521a42b6-cc08-4d55-b015-cc65db733bdd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try a classic pick up line",
+      "targets": [
+        ["linkText=Try a classic pick up line", "linkText"],
+        ["css=.link-internal:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Try a classic pick up line')]", "xpath:link"],
+        ["xpath=//div[@id='passage-invite-them-to-a-drink']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try a classic pick up line')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd59c611-aeac-4b09-bd4a-01d403c2fa55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Elevator",
+      "targets": [
+        ["linkText=Elevator", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Elevator')]", "xpath:link"],
+        ["xpath=//div[@id='passage-try-a-classic-pick-up-line']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elevator')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99856712-483d-41d6-91d8-654185d54459",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=... ...",
+      "targets": [
+        ["linkText=... ...", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'... ...')]", "xpath:link"],
+        ["xpath=//div[@id='passage-elevator2']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'... ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e080ba-8790-4a08-8a58-b3b0a34ea517",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=*Doors open*",
+      "targets": [
+        ["linkText=*Doors open*", "linkText"],
+        ["css=.link-internal:nth-child(14)", "css:finder"],
+        ["xpath=//a[contains(text(),'*Doors open*')]", "xpath:link"],
+        ["xpath=//div[@id='passage-elevator2']/span[2]/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'*Doors open*')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "843c0298-7c21-46f0-8929-ce80e7339588",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Look around",
+      "targets": [
+        ["linkText=Look around", "linkText"],
+        ["css=.link-internal:nth-child(23)", "css:finder"],
+        ["xpath=//a[contains(text(),'Look around')]", "xpath:link"],
+        ["xpath=//div[@id='passage-her-room']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Look around')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99ed0ad2-5d9e-4e34-8fe1-702c812f7453",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wardrobe",
+      "targets": [
+        ["linkText=Wardrobe", "linkText"],
+        ["css=.link-internal:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Wardrobe')]", "xpath:link"],
+        ["xpath=//div[@id='passage-look-around']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wardrobe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd93dc2-41de-4df7-9147-d0bfe07e6f62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Return",
+      "targets": [
+        ["linkText=Return", "linkText"],
+        ["css=.macro-return", "css:finder"],
+        ["xpath=//a[contains(text(),'Return')]", "xpath:link"],
+        ["xpath=//div[@id='passage-wardrobe-2']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Return')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8868e5bb-378a-4f87-af31-4c59c82090e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bed drawer",
+      "targets": [
+        ["linkText=Bed drawer", "linkText"],
+        ["css=.link-internal:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Bed drawer')]", "xpath:link"],
+        ["xpath=//div[@id='passage-look-around']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Bed drawer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93725a00-b79a-4902-9ccb-277beaec72b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Look further",
+      "targets": [
+        ["linkText=Look further", "linkText"],
+        ["css=.link-internal:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Look further')]", "xpath:link"],
+        ["xpath=//div[@id='passage-bed-drawer']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Look further')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3e887de-b58e-4d46-bddc-78106bc11219",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get in the bed",
+      "targets": [
+        ["linkText=Get in the bed", "linkText"],
+        ["css=.link-internal:nth-child(27)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get in the bed')]", "xpath:link"],
+        ["xpath=//div[@id='passage-the-bathroom-door-opens']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get in the bed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cca55108-ba23-4848-a27a-a281ed7aae86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=... ...",
+      "targets": [
+        ["linkText=... ...", "linkText"],
+        ["css=.macro-linkreplace", "css:finder"],
+        ["xpath=//a[contains(text(),'... ...')]", "xpath:link"],
+        ["xpath=//div[@id='passage-get-in-the-bed']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'... ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73c7e9ce-1b6a-4f35-a69c-e0387f496178",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=It'll get bigger. I'm just nervous...",
+      "targets": [
+        ["linkText=It'll get bigger. I'm just nervous...", "linkText"],
+        ["css=.link-internal:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='passage-get-in-the-bed']/span/div[5]/a", "xpath:idRelative"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac93033c-779e-4eea-89ff-810422c7ee39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to room",
+      "targets": [
+        ["linkText=Go to room", "linkText"],
+        ["css=.macro-click", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to room')]", "xpath:link"],
+        ["xpath=//div[@id='passage-itll-get-bigger-im-just-nervous']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5c36613-585c-473b-a9db-0e8bb38eb614",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=You've got a new message!",
+      "targets": [
+        ["linkText=You've got a new message!", "linkText"],
+        ["css=.Phone > .link-internal", "css:finder"],
+        ["xpath=//div[@id='passage-embarrased']/span/a", "xpath:idRelative"],
+        ["xpath=//div/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb7a4491-2dd9-4f5f-888c-90d4f8cda6a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Be nice and soothe the situation (CUCKOLD PATH)",
+      "targets": [
+        ["linkText=Be nice and soothe the situation (CUCKOLD PATH)", "linkText"],
+        ["css=.link-internal:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Be nice and soothe the situation (CUCKOLD PATH)')]", "xpath:link"],
+        ["xpath=//div[@id='passage-sms1-gf']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Be nice and soothe the situation (CUCKOLD PATH)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b5a1d76-70b5-480f-bd88-00979a12dafb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=sleep",
+      "targets": [
+        ["linkText=sleep", "linkText"],
+        ["css=.link-broken", "css:finder"],
+        ["xpath=//a[contains(text(),'sleep')]", "xpath:link"],
+        ["xpath=//div[@id='passage-sms1-gf']/a", "xpath:idRelative"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'sleep')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4be41961-b289-4577-9b40-3274ccbec846",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["803b1164-3a8c-4dfe-8b54-c0981a718481"]
+  }],
+  "urls": ["file:///path/to/directory/sq_cruise_ship/sq_cruise_ship.html"],
+  "plugins": []
+}
