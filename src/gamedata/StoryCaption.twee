@@ -1,4 +1,4 @@
-:: StoryCaption {"position":"257,804","size":"100,100"}
+:: StoryCaption
 ''//Music://'' <<nobr>><<if ndef $mute>><span class="muteoff"><<link "Mute🔇" `passage()`>>
 	<<script>>
 	Dialog.setup('Mute music');
