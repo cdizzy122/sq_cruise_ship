@@ -14,4 +14,6 @@ This does require updating the file to point to the fully qualified local path f
 
 # Plans
 
-Will include basic save files for now. Might include a way to skip to later chapters by setting choices later.
+Need to get all the heavy files (video, audio, images) off of this repo and store it in a more reasonable way. The total project size is 1.6 GB _compressed_. I'm also sure that Github has issues with adult media hosted on their site. Might need to burn this repo after a while and migrate to a new one.
+
+Will include basic save files within the repo at some point. Might use them for more easy automated testing. Might include a way to skip to later chapters by setting choices later.
