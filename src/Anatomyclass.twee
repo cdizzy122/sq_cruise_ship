@@ -4,10 +4,10 @@
 <<speech "foster" "''Foster:''">>
 Hello there. Come in and have a seat.<</speech>>
 <<speech "foster" "''Foster:''">>
-I'm professor Foster, I will be expanding your mind with knowledge. Especifically, you'll learn anatomy. That means understanding the differences between human specimens and how all types of bodies work.
+I'm professor Foster, I will be expanding your mind with knowledge. Specifically, you'll learn anatomy. That means understanding the differences between human specimens and how all types of bodies work.
 First up, we'll be learning about the different genders.
 
-Biologicaly speaking, there are only 2 genres: male and female. But in reality, this is not always true. Let me show you:
+Biologicaly speaking, there are only 2 genders: male and female. But in reality, this is not always true. Let me show you:
 This is a woman:
 
 <img src="classes/anatomy/woman.jpg" width="50%">
@@ -17,7 +17,7 @@ There are some studies that say that women have a more developed intelligence th
 
 <img src="classes/anatomy/alpha.jpg" width="50%">
 
-Alpha men intimidate us women, as they are bigger and stronger than us. This features are considered attractive by all heterosexual women. These men are tall, naturally strong with big muscles and everything big, if you know what I mean. Alphas have to be assertive and confident. They tend to be more succesful in their proffesional life, ans that makes them even more attractive.
+Alpha men intimidate us women, as they are bigger and stronger than us. This features are considered attractive by all heterosexual women. These men are tall, naturally strong with big muscles and everything big, if you know what I mean. Alphas have to be assertive and confident. They tend to be more succesful in their proffesional life, and that makes them even more attractive.
 
 So, where are you? Who do you identify yourself with the most?<</speech>>
 <<speech "You" "''$name:''">>
@@ -27,7 +27,7 @@ Which is why your girlfriend is with you, probably. Think about it. What other m
 <<speech "You" "''$name:''">>
 She likes my personality. We are in love. I listen to her problems and help her in any way I can. I am a good boyfriend.<</speech>>
 <<speech "foster" "''Foster:''">>
-Boooring...She likes you because you are easy to handle. She likes you because she was probably fed up of men treating her like a whore. She needs something stable. Someone that will not treat her like a bitch: A Beta Male:
+Boooring...She likes you because you are easy to handle. She likes you because she was probably fed up of men treating her like a whore. She needs something stable. Someone that will not treat her like a bitch: A Beta Male.
 
 <img src="classes/anatomy/beta.jpg" width="50%">
 
@@ -52,15 +52,15 @@ The facts are: your muscles haven't even started to develop, you are on the very
 ''2. //Assertive and confident.//''
 
 <<speech "foster" "''Foster:''">>
-I've seen you doubt basically every time you speak. You are afraid from a teacher and this makes you feel submissive and inferior, so this is out of the question, right off the bat.<</speech>>
+I've seen you doubt basically every time you speak. You are afraid of your teacher and this makes you feel submissive and inferior, so this is out of the question, right off the bat.<</speech>>
 ''3. //Succesful at work.//''
 
 <<speech "foster" "''Foster:''">>
-Yes, you may have money. Though it is by working in an office that you have obtained it. Working for other. A sub. And this is the way you feel more comfortable: being under the command of another person, isn't that right?<</speech>>
+Yes, you may have money. Though it is by working in an office that you have obtained it. Working for others. A sub. And this is the way you feel more comfortable: being under the command of another person, isn't that right?<</speech>>
 <<speech "You" "''$name:''">>
 It's my job to do what I'm asked to do-<</speech>>
 <<speech "foster" "''Foster:''">>
-Exactly. No choices, no responsability. Perfect for you. *smiles*
+Exactly. No choices, no responsibility. Perfect for you. *smiles*
 But, you know...there's something that would change this. Something that would make you a Protoalpha, if you will.<</speech>>
 <<speech "You" "''$name:''">>
 What is that?<</speech>>
@@ -70,7 +70,7 @@ A PENIS. A BIG PENIS. If you had a manly meat stick you could prove me wrong. Yo
 I...I don't have to prove anything to you.<</speech>>
 <<speech "foster" "''Foster:''">>
 C'mon, let me see. It will be fun!<</speech>>
-She gets you up and starts unbuckling your belt, dropping your pants down, and does so with your underwear.
+She gets you up and starts unbuckling your belt, dropping your pants, and then does so with your underwear.
 
 <<speech "foster" "''Foster:''">>
 Well, this is a miracle. It's a miracle that Natural Selection hasn't erased you from Earth yet. This is a sign that you, my darling, are a Beta Male.<</speech>>
@@ -121,7 +121,7 @@ A PENIS. A BIG PENIS. If you had a manly meat stick you could prove me wrong. Yo
 I...I don't have to prove anything to you.<</speech>>
 <<speech "foster" "''Foster:''">>
 C'mon, let me see. It will be fun!<</speech>>
-She gets you up and starts unbuckling your belt, dropping your pants down, and does so with your underwear.
+She gets you up and starts unbuckling your belt, dropping your pants, and then does so with your underwear.
 
 <<speech "foster" "''Foster:''">>
 Well, this is a miracle. It's a miracle that the natural selection hasn't erased you from Earth yet. This is a sign that you, my darling, are a Beta Male.<</speech>>
@@ -136,7 +136,7 @@ Now that we've determined that you are a Beta Male, let's see what your options 
 <<speech "foster" "''Foster:''">>
 This is a pretty cute sissy specimen. As you can observe, the sissy has a girl's face and skin: it's smooth and cute, soft and kissable. The hair is loooong and girly. She even has two little bumps that look like cute proto-titties, which will continue to get bigger as she continues her hormone treatment.
 
-The only "boy" feature is her clitty. That is what we call the apendage that remains from her "beta male" era. It serves a mere stetical purpose, and reminds her every day how much of a sissy she is.'
+The only "boy" feature is her clitty. That is what we call the apendage that remains from her "beta male" era. It serves a mere stetical purpose, and reminds her every day how much of a sissy she is.
 
 This way the girls will treat the pre-beta as an equal, even like a lesbian lover, and the Alpha males will be attracted to her girly features, some even to her clitty, due to the extra domination-role rush<</speech>>
 She rubs your cheek and lift your head.
@@ -150,7 +150,7 @@ She looks right at your fully erect dick.
 <<speech "foster" "''Foster:''">>
 Get your pants back on, sweetie. You've got a lot of homework to do...<</speech>>
 Embarrased and aroused, you put your pants back in place and <<click "get out." "Deck 8">><<run $gameDate.setHours (20) and $gameDate.setMinutes (0)>><</click>><</linkappend>><<elseif $anatomy is 3>><<speech "foster" "''Foster:''">>
-Hello there. Come in and have a sit.<</speech>>
+Hello there. Come in and have a seat.<</speech>>
 <img src="classes/anatomy/foster1.jpg" width="40%">
 
 <<speech "foster" "''Foster:''">>

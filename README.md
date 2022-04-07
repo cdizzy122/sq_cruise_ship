@@ -14,6 +14,21 @@ This does require updating the file to point to the fully qualified local path f
 
 # Plans
 
-Need to get all the heavy files (video, audio, images) off of this repo and store it in a more reasonable way. The total project size is 1.6 GB _compressed_. I'm also sure that Github has issues with adult media hosted on their site. Might need to burn this repo after a while and migrate to a new one.
+## Must
+
+need to DRY up the class reminder section:
+`(DECK 7)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 11 and $gameDate.getHours() lt 13>><span class="fade-in-out"><span class="ad">CAPTAIN T CLASS 11-13 `
+
+need to rename all the UntitledPassage files
+
+Might need to burn this repo after a while and migrate to a new one to remove bad files from git history.
+
+## Ideas
+
+Extend reorganization of twee files into more directories
 
 Will include basic save files within the repo at some point. Might use them for more easy automated testing. Might include a way to skip to later chapters by setting choices later.
+
+Want to include ways to click the appointment reminder message to take us to the next appointment.
+
+Make classes more forgiving in time, can skip 20 min to get to a class if needed
