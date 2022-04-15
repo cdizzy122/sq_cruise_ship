@@ -149,7 +149,7 @@ Um... no, I don't do t-that...<</speech>>
 I guess we could figure it out right now...<</speech>>
 She looks at both of her friends and smile. You know what's coming...
 
-<<if $sub gte 13>>''(if SUB is 13 or greater)''
+<<if $sub gte 13>> /* ''(if SUB is 13 or greater)'' */
 
 Even though you'd like to run away from there, you just stay in place. Even before you can start rethinking your priorities, the black-haired girl comes near you.
 

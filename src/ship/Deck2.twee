@@ -62,7 +62,7 @@ As she smiles your heart warms up.
 
 <<speech "You" "''You:''">>
 (That has to be the first sincere smile in a while. Maybe she's not that bad after all...)<</speech>>
-<<click "La Rochelle" "La rochellee">><<set $drug1 to "Active", $badge to $badge +1>><<audio "ship" mute>><</click>>
+<<click "La Rochelle" "La Rochelle">><<set $drug1 to "Active", $badge to $badge +1>><<audio "ship" mute>><</click>>
 
 \\
 <<elseif $arriveplace is 2>><<speech "tara" "''Tara:''">>

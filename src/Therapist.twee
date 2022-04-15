@@ -219,7 +219,7 @@ All of the sudden your perception of Tara's personality take another turn.
 <<speech "You" "''$name:''">>
 (Maybe she just genuinely cares about me...)<</speech>>
 <<speech "psycho" "''Jada:''">>
-That's what I can tell you, $name. Just try not to break her feelings. Nobody is as strong as they look...<</speech>>
+That's what I can tell you, $name. Just try not to break her heart. Nobody is as strong as they look...<</speech>>
 <<speech "You" "''$name:''">>
 Ok...<</speech>>
 <<if $setcuckpath is 1>><<else>><<click "David and $gfname" "Therapist">><<set $talkjada2 to 2>><</click>><</if>>
@@ -227,7 +227,7 @@ Ok...<</speech>>
 [[Tests|Psychotests][$psychotests to 2]]<<elseif $talkjada2 is 2>><<speech "You" "''$name:''">>
 I'm actually having a little problem. It's related to my girlfriend, $gfname.<</speech>>
 <<speech "psycho" "''Jada:''">>
-You can tell me, $name. But, excuse my intromission, weren't you two spending some time apart?<</speech>>
+You can tell me, $name. But, excuse my interruption, weren't you two spending some time apart?<</speech>>
 <<speech "You" "''$name:''">>
 I mean, we... *sigh* yes, we are.<</speech>>
 <<speech "psycho" "''Jada:''">>
