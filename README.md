@@ -19,9 +19,13 @@ This does require updating the file to point to the fully qualified local path f
 need to DRY up the class reminder section:
 `(DECK 7)</span></span><<elseif String.format("{0} {1} {2}, {3}"), GameDays[$gameDate.getDay()] isnot "Sun" and $gameDate.getHours() gte 11 and $gameDate.getHours() lt 13>><span class="fade-in-out"><span class="ad">CAPTAIN T CLASS 11-13 `
 
+autopopup using the passage title in the popup itself is annoying. need to fix to decouple passage and file names from game experience
+
 need to rename all the UntitledPassage files
 
 Might need to burn this repo after a while and migrate to a new one to remove bad files from git history.
+
+add a reminder on days with the stage events so they dont get missed
 
 ## Ideas
 

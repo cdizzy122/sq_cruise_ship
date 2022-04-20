@@ -105,7 +105,7 @@ Oh, hey. Are you coming in for a swim? I hope you brought a proper swimming suit
 <<speech "You" "''$name:''">>
  *gulp* I just came to introduce Suzie to you. She need some swimming classes and I was wondering if you could...<</speech>>
 <<speech "nobody" "''Lifeguard:''">>
-Girl... Suzie, right? Did you really came into a cruise ship thinking you wouldn't swim?<</speech>>
+Girl... Suzie, right? Did you really come onto a cruise ship thinking you wouldn't swim?<</speech>>
 <<speech "nobody" "''Suzie:''">>
  *nods*<</speech>>
 <<speech "nobody" "''Lifeguard:''">>
