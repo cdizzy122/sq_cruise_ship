@@ -1,4 +1,4 @@
-:: Road [textback] {"position":"4137,745","size":"100,100"}
+:: Road [textback]
 <<removeclass "html">><<addclass "html" "spanish">><<if $busstop is 0>>There is a bus stop.
 
 <img src="dockings/nudist/busstop.jpg" width="90%">
