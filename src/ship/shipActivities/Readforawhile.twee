@@ -7,7 +7,7 @@ You leave the book in its hole and walk to the adjacent room where the new colle
 
 [[Go to room|Read for a while][$rroom to 0]]<<elseif $rroom is 0>><div class="center"><img src="places2/library2.jpg" width="60%">
 
-''//(Internet conexion needed)//''
+''//(Internet connection needed)//''
 
 [[Personality tests🎭|Read for a while][$rroom to 1]]
 [[Sexuality tests😘🍆|Read for a while][$rroom to 2]]
